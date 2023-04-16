@@ -23,7 +23,6 @@ from django.conf.urls.static import static
 
 from dogs.views import AchievementViewSet, DogViewSet
 
-
 router = routers.DefaultRouter()
 router.register(r'dogs', DogViewSet)
 router.register(r'achievements', AchievementViewSet)

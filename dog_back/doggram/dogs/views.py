@@ -9,10 +9,10 @@ from .serializers import AchievementSerializer, DogSerializer
 class DogViewSet(viewsets.ModelViewSet):
     queryset = Dog.objects.all()
     serializer_class = DogSerializer
-    pagination_class = PageNumberPagination 
+    pagination_class = PageNumberPagination
 
     def perform_create(self, serializer):
-        serializer.save(owner=self.request.user) 
+        serializer.save(owner=self.request.user)
 
 
 class AchievementViewSet(viewsets.ModelViewSet):
