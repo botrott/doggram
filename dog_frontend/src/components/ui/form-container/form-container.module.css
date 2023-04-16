@@ -1,0 +1,16 @@
+.content {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 20px 0 0;
+  border-radius: var(--common-border-radius);
+  background-color: var(--colors-interface-form);
+  box-shadow: 0px 30px 80px rgba(119, 119, 119, 0.25);
+  border-radius: 2rem;
+  padding: 2.4em;
+  box-shadow: 0 0 .2rem #aaa5a5,
+              0 0 .2rem #aaa5a5,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
+}
